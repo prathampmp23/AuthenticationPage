@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset 2px 2px 10px rgb(104, 104, 104);
+  padding: 50px;
+  border-radius: 8px;
+  width: 300px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content input {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #121212;
+  transition: border-color 0.25s;
+}
+.btn {
+  border-radius: 8px;
+  border: 2px solid rgb(1, 74, 74);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #000000;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.btn:hover {
+  border-color: #87f3e1;
+}
+.btn:focus,
+.btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
